@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "213339100503",
+    "project_id": "time-schedule-f057c",
+    "storage_bucket": "time-schedule-f057c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213339100503:android:ce0c53352f7aa0ef9c1a12",
+        "android_client_info": {
+          "package_name": "com.example.timeschedule"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD07qxmVDmHWRRgda4vMdJhzy3aujd3EOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
