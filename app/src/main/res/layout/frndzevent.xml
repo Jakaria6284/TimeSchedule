@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:background="#2C2626"
-    android:layout_height="match_parent">
+    android:paddingBottom="@dimen/_16sdp"
+    android:layout_height="@dimen/_250sdp">
 
     <ScrollView
         android:layout_width="409dp"
@@ -16,233 +17,28 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+
             android:orientation="vertical" >
-            <EditText
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="@dimen/_280sdp"
+                app:lottie_rawRes="@raw/code"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_height="@dimen/_185sdp"/>
+            <TextView
                 android:id="@+id/subject"
-                android:layout_width="@dimen/_300sdp"
-                android:layout_height="@dimen/_50sdp"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_40sdp"
                 android:gravity="center"
-                android:hint="Subject"
+                android:hint="Send code"
                 android:layout_gravity="center"
-                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_5sdp"
                 android:textColorHint="#ffffff"
-                android:textSize="@dimen/_20sdp"
+                android:textSize="@dimen/_16ssp"
                 android:textStyle="bold"
                 android:background="@drawable/back"
                 />
-            <LinearLayout
-                android:layout_width="@dimen/_300sdp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="@dimen/_16sdp"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:background="@drawable/back"
-                android:orientation="vertical">
-                <EditText
-                    android:id="@+id/classtype"
-                    android:layout_width="@dimen/_290sdp"
-                    android:layout_height="wrap_content"
-                    android:gravity="start"
-                    android:layout_marginStart="@dimen/_4sdp"
-                    android:hint="class type"
-                    android:layout_gravity="center"
-
-                    android:layout_marginTop="@dimen/_4sdp"
-                    android:textColorHint="#ffffff"
-                    android:textSize="@dimen/_14sdp"
-
-
-                    />
-                <EditText
-                    android:id="@+id/building"
-                    android:layout_width="@dimen/_290sdp"
-                    android:layout_height="wrap_content"
-                    android:gravity="start"
-                    android:layout_marginStart="@dimen/_4sdp"
-                    android:hint="Building"
-                    android:layout_gravity="center"
-
-                    android:layout_marginTop="@dimen/_4sdp"
-                    android:textColorHint="#ffffff"
-                    android:textSize="@dimen/_14sdp"
-
-
-                    />
-                <EditText
-                    android:id="@+id/room"
-                    android:layout_width="@dimen/_290sdp"
-                    android:layout_height="wrap_content"
-                    android:gravity="start"
-                    android:layout_marginStart="@dimen/_4sdp"
-                    android:hint="Room"
-                    android:layout_gravity="center"
-
-                    android:layout_marginTop="@dimen/_4sdp"
-                    android:textColorHint="#ffffff"
-                    android:textSize="@dimen/_14sdp"
-
-
-                    />
-                <EditText
-                    android:id="@+id/teacher"
-                    android:layout_width="@dimen/_290sdp"
-                    android:layout_height="wrap_content"
-                    android:gravity="start"
-                    android:layout_marginStart="@dimen/_4sdp"
-                    android:hint="Teacher"
-                    android:layout_gravity="center"
-
-                    android:layout_marginTop="@dimen/_4sdp"
-                    android:textColorHint="#ffffff"
-                    android:textSize="@dimen/_14sdp"
-
-
-                    />
-
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="@dimen/_300sdp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="@dimen/_8sdp"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:background="@drawable/back"
-                android:orientation="vertical">
-                <EditText
-                    android:id="@+id/link"
-                    android:layout_width="@dimen/_290sdp"
-                    android:layout_height="@dimen/_40sdp"
-                    android:gravity="start"
-                    android:layout_marginStart="@dimen/_4sdp"
-                    android:hint="Links"
-                    android:layout_gravity="center"
-
-                    android:layout_marginTop="@dimen/_4sdp"
-                    android:textColorHint="#ffffff"
-                    android:textSize="@dimen/_14sdp"
-
-
-                    />
-
-
-
-
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="@dimen/_300sdp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="@dimen/_12sdp"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:background="@drawable/back"
-                android:orientation="vertical">
-
-
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="@dimen/_8sdp"
-                    android:orientation="horizontal"
-                    >
-                    <EditText
-                        android:id="@+id/interval"
-                        android:layout_width="@dimen/_150sdp"
-                        android:layout_height="@dimen/_40sdp"
-                        android:gravity="center"
-                        android:layout_marginStart="@dimen/_8sdp"
-                        android:hint="Interval"
-
-                        android:layout_gravity="center"
-                        android:background="@drawable/backkkk"
-
-                        android:layout_marginTop="@dimen/_4sdp"
-                        android:textColorHint="#ffffff"
-                        android:textSize="@dimen/_14sdp"/>
-
-                    <EditText
-                        android:id="@+id/end"
-                        android:layout_width="@dimen/_120sdp"
-                        android:layout_height="@dimen/_40sdp"
-                        android:gravity="center"
-                        android:layout_marginStart="@dimen/_8sdp"
-                        android:hint="End"
-
-                        android:layout_gravity="center"
-                        android:background="@drawable/backkkk"
-
-                        android:layout_marginTop="@dimen/_4sdp"
-                        android:textColorHint="#ffffff"
-                        android:textSize="@dimen/_14sdp"/>
-
-                </LinearLayout>
-
-                <EditText
-                    android:id="@+id/begin"
-                    android:layout_width="@dimen/_290sdp"
-                    android:layout_height="@dimen/_40sdp"
-                    android:gravity="start"
-
-                    android:layout_marginStart="@dimen/_4sdp"
-                    android:hint="Begin"
-                    android:layout_gravity="center"
-
-                    android:layout_marginTop="@dimen/_8sdp"
-                    android:textColorHint="#ffffff"
-                    android:textSize="@dimen/_14sdp"
-
-
-                    />
-
-                <EditText
-                    android:id="@+id/stop"
-                    android:layout_width="@dimen/_290sdp"
-                    android:layout_height="@dimen/_40sdp"
-                    android:gravity="start"
-                    android:layout_marginStart="@dimen/_4sdp"
-                    android:hint="Start"
-                    android:layout_gravity="center"
-
-                    android:layout_marginTop="@dimen/_4sdp"
-                    android:textColorHint="#ffffff"
-                    android:textSize="@dimen/_14sdp"
-
-
-                    />
-
-                <TextView
-                    android:id="@+id/colorpicker"
-                    android:layout_width="@dimen/_280sdp"
-                    android:layout_height="@dimen/_40sdp"
-                    android:gravity="center"
-                    android:background="@drawable/backkkk"
-                    android:layout_marginStart="@dimen/_4sdp"
-                    android:text="Color picker"
-                    android:textColor="#ffffff"
-                    android:textStyle="bold"
-                    android:layout_gravity="center"
-
-                    android:layout_marginTop="@dimen/_4sdp"
-                    android:textColorHint="#ffffff"
-                    android:textSize="@dimen/_14sdp"
-
-
-                    />
-
-
-
-
-
-
-
-            </LinearLayout>
-
 
 
 

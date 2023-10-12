@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292525"
+    tools:context=".premiumActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_350sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/prepear" />
+
+    <LinearLayout
+        android:layout_width="@dimen/_290sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/backkkk"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="@dimen/_100sdp"
+               android:layout_height="wrap_content"
+               android:text="Notifications"
+               android:textColor="#ffffff"
+               android:layout_marginStart="@dimen/_12sdp"
+               android:layout_marginTop="@dimen/_8sdp"
+               android:textStyle="bold"
+               android:textSize="@dimen/_14ssp"/>
+
+           <Switch
+               android:layout_width="@dimen/_60sdp"
+               android:layout_marginStart="@dimen/_89sdp"
+               android:layout_marginTop="@dimen/_8sdp"
+               android:layout_height="@dimen/_30sdp"/>
+
+       </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To remin you of important events"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:textStyle="normal"
+            android:textSize="@dimen/_10ssp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/_290sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/backkkk"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="Backups"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <Switch
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginStart="@dimen/_89sdp"
+                android:layout_marginTop="@dimen/_8sdp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:text="Restore your schedule at any time"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/_290sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/backkkk"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="Community"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <Switch
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginStart="@dimen/_89sdp"
+                android:layout_marginTop="@dimen/_8sdp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:text="Continuous motivate you to stay schedule"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

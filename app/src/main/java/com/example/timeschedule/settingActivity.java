@@ -93,6 +93,40 @@ public class settingActivity extends AppCompatActivity {
               @Override
               public void onClick(View view) {
 
+                  Dialog dialog=new Dialog(settingActivity.this);
+                  dialog.setContentView(R.layout.frndzevent);
+                  dialog.setCancelable(true);
+                  TextView Text=dialog.findViewById(R.id.subject);
+
+                  Text.setOnClickListener(new View.OnClickListener() {
+                      @Override
+                      public void onClick(View view) {
+                         String userid=FirebaseAuth.getInstance()
+                                 .getCurrentUser().getUid();
+
+                         Intent intent=new Intent();
+                         intent.setAction(Intent.ACTION_SEND);
+                         intent.putExtra(Intent.EXTRA_TEXT,userid);
+                         intent.setType("text/plain");
+
+                         if(intent.resolveActivity(getPackageManager()) !=null)
+                         {
+                             startActivity(intent);
+                             dialog.dismiss();
+                         }
+                      }
+                  });
+
+                  dialog.show();
+
+
+              }
+          });
+
+          Pro.setOnClickListener(new View.OnClickListener() {
+              @Override
+              public void onClick(View view) {
+                   startActivity(new Intent(settingActivity.this, premiumActivity.class));
 
               }
           });
