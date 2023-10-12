@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TimeSchedule"
         tools:targetApi="31">
         <activity
+            android:name=".AppearanceActivity"
+            android:exported="false" />
+        <activity
             android:name=".showFrndzeventActivity"
             android:exported="false" />
         <activity
