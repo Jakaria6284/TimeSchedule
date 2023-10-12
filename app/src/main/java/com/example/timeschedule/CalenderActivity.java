@@ -34,11 +34,11 @@ public class CalenderActivity extends AppCompatActivity {
 
     CalendarView calendarView;
     Button button;
-    String formattedDate;
+   public static String formattedDate;
     FirebaseFirestore firebaseFirestore;
     FirebaseAuth firebaseAuth;
     FirebaseUser firebaseUser;
-    String id;
+    public static String id;
     List<homeModel> homeModelList=new ArrayList<>();
     LinearLayout calenderlayout;
     LinearLayout FrndSchedule;

@@ -154,10 +154,10 @@
                     >
                     <EditText
                         android:id="@+id/interval"
-                        android:layout_width="@dimen/_150sdp"
+                        android:layout_width="@dimen/_120sdp"
                         android:layout_height="@dimen/_40sdp"
                         android:gravity="center"
-                        android:layout_marginStart="@dimen/_8sdp"
+                        android:layout_marginStart="@dimen/_2sdp"
                         android:hint="Interval"
 
                         android:layout_gravity="center"
@@ -172,7 +172,7 @@
                         android:layout_width="@dimen/_120sdp"
                         android:layout_height="@dimen/_40sdp"
                         android:gravity="center"
-                        android:layout_marginStart="@dimen/_8sdp"
+                        android:layout_marginStart="@dimen/_19sdp"
                         android:hint="End"
 
                         android:layout_gravity="center"
@@ -217,24 +217,6 @@
 
                     />
 
-                <TextView
-                    android:id="@+id/colorpicker"
-                    android:layout_width="@dimen/_280sdp"
-                    android:layout_height="@dimen/_40sdp"
-                    android:gravity="center"
-                    android:background="@drawable/backkkk"
-                    android:layout_marginStart="@dimen/_4sdp"
-                    android:text="Color picker"
-                    android:textColor="#ffffff"
-                    android:textStyle="bold"
-                    android:layout_gravity="center"
-
-                    android:layout_marginTop="@dimen/_4sdp"
-                    android:textColorHint="#ffffff"
-                    android:textSize="@dimen/_14sdp"
-
-
-                    />
 
 
 

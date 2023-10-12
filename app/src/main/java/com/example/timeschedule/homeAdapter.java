@@ -65,6 +65,10 @@ public class homeAdapter extends RecyclerView.Adapter<homeAdapter.viewHolder> {
                 }else
                 {
                     Intent intent = new Intent(holder.itemView.getContext(), showFrndzeventActivity.class);
+                    intent.putExtra("ID", CalenderActivity.id);
+                    intent.putExtra("DID", dID);
+                    intent.putExtra("D", CalenderActivity.formattedDate);
+
                     holder.itemView.getContext().startActivity(intent);
 
                 }
