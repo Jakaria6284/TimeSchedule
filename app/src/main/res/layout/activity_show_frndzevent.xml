@@ -44,7 +44,7 @@
                     android:layout_width="@dimen/_290sdp"
                     android:layout_height="wrap_content"
                     android:gravity="start"
-                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
                     android:hint="class type"
                     android:layout_gravity="center"
 
@@ -59,7 +59,7 @@
                     android:layout_width="@dimen/_290sdp"
                     android:layout_height="wrap_content"
                     android:gravity="start"
-                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
                     android:hint="Building"
                     android:layout_gravity="center"
 
@@ -74,7 +74,7 @@
                     android:layout_width="@dimen/_290sdp"
                     android:layout_height="wrap_content"
                     android:gravity="start"
-                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
                     android:hint="Room"
                     android:layout_gravity="center"
 
@@ -89,7 +89,7 @@
                     android:layout_width="@dimen/_290sdp"
                     android:layout_height="wrap_content"
                     android:gravity="start"
-                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
                     android:hint="Teacher"
                     android:layout_gravity="center"
 
