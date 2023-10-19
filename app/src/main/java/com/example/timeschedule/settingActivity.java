@@ -148,6 +148,13 @@ public class settingActivity extends AppCompatActivity {
 
             }
         });
+
+        Appearance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //startActivity(new Intent(settingActivity.this, trackdateActivity.class));
+            }
+        });
     }
 
 
