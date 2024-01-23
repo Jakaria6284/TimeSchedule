@@ -1,3 +1,6 @@
+<div align="center">
+    <img alt="Coding" height="300" style="width: 100%;" src="https://e7.pngegg.com/pngimages/651/15/png-clipart-website-development-web-page-web-banner-web-design-mobile-app-development-web-design-electronics-web-design.png" />
+</div>
 
 <h1 align="center">Hi 👋, I'm Jakaria kamal</h1>
 <h3 align="center">A passionate Android developer from Bangladesh and I Recently learning Flutter and Dart</h3>
